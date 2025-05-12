@@ -75,9 +75,9 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ICEBACK-XMD~" + string_session;
+                        let md = "POPKID~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*GANGSTER MURISEI? ! 👋🏻* 
+                        let desc = `*HI USER? ! 👋🏻* 
 
 *A HEARTFELT THANK YOU FOR JOINING OUR INNER CIRCLE! ✨*
 
@@ -85,7 +85,7 @@ var randomItem = selectRandomItem(items);
 
 ░▒▓█► CLASSIFIED INTEL INITIATED ◄█▓▒░
 
-⚠️ **ABSOLUTE DISCRETION ADVISED:** Your Session Cipher is the keystone to this sanctuary. Guard it with the vigilance of a digital sentinel. Sharing it breaches the trust and the gateway. You are now among the select, welcomed by ICEBACK-MASTERY 🗝️🌌
+⚠️ **ABSOLUTE DISCRETION ADVISED:** Your Session Cipher is the keystone to this sanctuary. Guard it with the vigilance of a digital sentinel. Sharing it breaches the trust and the gateway. You are now among the select, welcomed by Popkid 🗝️🌌
 
 
 **🔓 ACCESS GRANTED TO ELITE RESOURCES 🔓**
@@ -94,7 +94,7 @@ var randomItem = selectRandomItem(items);
 📲 Immerse yourself further within our dedicated channels:
 
 
-**WhatsApp Nexus 🔗:**
+**Popkid Xmd 🔗:**
 
 * Unveil clandestine development chronicles 🕵️‍♀️
 * Receive real-time protocol updates and strategic briefings 📰
@@ -102,20 +102,20 @@ var randomItem = selectRandomItem(items);
 
 
 
-*Ko dai taisapisa vaizopisa vachol ndivanani😅*
+*thankx fahm❤️‍🩹*
 
-> Musa disappointe gangster 🤑🤑
+> Mr Popkid 🤑🤑
 *JOIN FOR MORE UPADATES*
 
 
-> *©ICEBACK-TECHIES*`; 
+> *©POPKID-TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ICEBACK-TECH",
-thumbnailUrl: "https://files.catbox.moe/38tp1u.jpg",
-sourceUrl: "https://files.catbox.moe/38tp1u.jpg",
+title: "X-TECH",
+thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
+sourceUrl: "https://files.catbox.moe/nw3mmc.jpg",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -124,14 +124,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying 𝕷𝕬𝕯𝖄𝕭𝖀𝕲 𝕸𝕯 1.0.0*\n\n ◦ *Github:* https://github.com/mrntandooofc/Ladybug-MD`;
+                            let desc = `*Don't Share with anyone this code use for deploying the bot*\n\n ◦ *Github:* https://github.com/Popkiddevs/POPKID-XTECH`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Ladybug-MD",
-thumbnailUrl: "https://files.catbox.moe/kkegq3.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA3xwRJ3juxiOZvKP3w",
+title: "POPKID-MD",
+thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
