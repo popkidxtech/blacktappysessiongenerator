@@ -77,45 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "POPKID~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*HI USER? ! 👋🏻* 
+                        let desc = `*Hello there POPKID-XTECH User! 👋🏻* 
 
-*A HEARTFELT THANK YOU FOR JOINING OUR INNER CIRCLE! ✨*
+> Avoid girls they make us broke 😂.
 
+ *Thanks for using POPKID XTECH 🌷* 
 
+> Join WhatsApp Channel :- 🖐🏻
+ 
+https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l
 
-░▒▓█► CLASSIFIED INTEL INITIATED ◄█▓▒░
+Dont forget to fork the repo ⬇️
 
-⚠️ **ABSOLUTE DISCRETION ADVISED:** Your Session Cipher is the keystone to this sanctuary. Guard it with the vigilance of a digital sentinel. Sharing it breaches the trust and the gateway. You are now among the select, welcomed by Popkid 🗝️🌌
+https://github.com/Popkiddevs/POPKID-XTECH
 
-
-**🔓 ACCESS GRANTED TO ELITE RESOURCES 🔓**
-
-
-📲 Immerse yourself further within our dedicated channels:
-
-
-**Popkid Xmd 🔗:**
-
-* Unveil clandestine development chronicles 🕵️‍♀️
-* Receive real-time protocol updates and strategic briefings 📰
-* Gain privileged entry to nascent functionalities and experimental builds 🧪
-
-
-
-*thankx fahm❤️‍🩹*
-
-> Mr Popkid 🤑🤑
-*JOIN FOR MORE UPADATES*
-
-
-> *©POPKID-TECH*`; 
+> *𝗽𝗼𝗽𝗸𝗶𝗱 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀🩷*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "X-TECH",
+title: "Hector Manuel",
 thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
-sourceUrl: "https://files.catbox.moe/nw3mmc.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -124,12 +107,12 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying the bot*\n\n ◦ *Github:* https://github.com/Popkiddevs/POPKID-XTECH`;
+                            let desc = `*Don't Share with anyone this code use for deploy POPKID-XMD*\n\n ◦ *Github:* https://github.com/Popkiddevs/POPKID-XTECH`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "POPKID-MD",
+title: "POPKID-XTECH",
 thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 2,
