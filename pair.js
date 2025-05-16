@@ -96,7 +96,7 @@ https://github.com/Popkiddevs/POPKID-XTECH
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Hector Manuel",
+title: "popkid xtech",
 thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 1,
