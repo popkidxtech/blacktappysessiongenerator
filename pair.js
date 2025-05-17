@@ -77,19 +77,27 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "POPKID;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there POPKID-XTECH User! 👋🏻* 
+                        let desc = `*🇭 🇮 🩷* 
 
-> Avoid girls they make us broke 😂.
-
- *Thanks for using POPKID XTECH 🌷* 
-
-> Join WhatsApp Channel :- 🖐🏻
- 
-https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l
-
-Dont forget to fork the repo ⬇️
-
-https://github.com/Popkiddevs/POPKID-XTECH
+╭══════════════⊷
+┃ ⚡𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗘𝗖𝗛 𝗕𝗢𝗧
+╰══════════════⊷
+╭══════════════⊷
+┃ 🪆𝗥𝗘𝗣𝗢
+┃https://github.com/Popkiddevs/POPKID-XTECH
+╰══════════════⊷
+╭══════════════⊷
+┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
+┃https://popkidpairfine.onrender.com/pair
+╰══════════════⊷
+╭══════════════⊷
+┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
+┃ ғᴏʀ ᴄᴏᴜʀᴀɢᴇ ᴘʟᴇᴀsᴇ
+╰══════════════⊷
+╭══════════════⊷
+┃ 𝐏𝐎𝐏𝐊𝐈𝐃
+┃+254732297194
+╰══════════════⊷
 
 > *𝗽𝗼𝗽𝗸𝗶𝗱 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀🩷*`; 
                         await sock.sendMessage(sock.user.id, {
