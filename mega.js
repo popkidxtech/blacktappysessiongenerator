@@ -1,3 +1,6 @@
+//popkid creations 2025
+//kasongo🎶to the world 
+
 const mega = require("megajs");
 let email = 'faisalkhan030083408@gmail.com' // mega emal
 let pw = 'samuza1122.' //mega password 
